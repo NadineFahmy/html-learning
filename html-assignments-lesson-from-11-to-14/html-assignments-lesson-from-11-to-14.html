@@ -1,0 +1,47 @@
+03
+
+1. Link to another webpage (external or internal)
+<a href="https://example.com">Visit Example</a>
+<a href="about.html">About Us</a>
+- href specifies the URL.
+- Opens the linked page when clicked.
+
+2. Link to a section within the same page (fragment identifier)
+<a href="#section2">Go to Section 2</a>
+<h2 id="section2">Section 2</h2>
+- Scrolls to an element with the matching id.
+
+3. Link to email (mailto)
+<a href="mailto:someone@example.com">Send Email</a>
+- Opens the default email client to send an email.
+
+4. Link to phone number (tel)
+<a href="tel:+1234567890">Call Us</a>
+- Initiates a phone call on devices that support it.
+
+5. Download a file
+<a href="file.pdf" download>Download PDF</a>
+- The download attribute tells the browser to download the file instead of opening it.
+
+6. Open link in a new tab
+<a href="https://example.com" target="_blank">Open in New Tab</a>
+- target="_blank" opens the link in a new browser tab or window.
+
+7. Link with relationship or metadata
+<a href="https://example.com" rel="nofollow">External Link</a>
+- rel specifies the relationship between the current page and the linked page.
+	- Examples: nofollow, noopener, author, external.
+
+8. Link with download filename
+<a href="file.pdf" download="NewName.pdf">Download PDF</a>
+- Lets you specify the name of the downloaded file.
+
+9. JavaScript actions (rare, usually for interactivity)
+<a href="#" onclick="alert('Hello!')">Click Me</a>
+- Executes JavaScript when the link is clicked.
+- Best practice: Use <button> for actions instead of anchor links.
+
+10. Link to a specific protocol
+<a href="ftp://example.com/file.zip">FTP Link</a>
+<a href="sms:+1234567890">Send SMS</a>
+- Supports protocols like ftp, sms, tel, mailto.
