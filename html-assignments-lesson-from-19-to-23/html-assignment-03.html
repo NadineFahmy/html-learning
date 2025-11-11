@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player Page</title>
+</head>
+<body>
+    <header>
+        <h1>Audio Player Demo</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Listen to Our Audio</h2>
+            
+            <audio controls autoplay loop>
+                <source src="audio-file.mp3" type="audio/mpeg">
+                <source src="audio-file.ogg" type="audio/ogg">
+                <source src="audio-file.wav" type="audio/wav">
+                Your browser does not support the audio element. Please upgrade your browser to listen to this audio.
+            </audio>
+            
+            <p>This audio file plays automatically when the page loads and loops continuously.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2021 &copy;</p>
+    </footer>
+</body>
+</html>
