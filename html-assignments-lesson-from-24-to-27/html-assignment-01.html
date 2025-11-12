@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+
+	<h2>Data Entry Form</h2>
+
+	<form action="test.py" method="POST">
+		<label>Username</label> <br>
+		<input type="text" name="user" required placeholder="Choose a unique username">
+		<hr>
+
+		<label>Email</label> <br>
+		<input type="email" name="mail" required placeholder="Enter a valid email address">
+		<hr>
+
+		<label>Mobile Number</label> <br>
+		<input type="tel" name="number" placeholder="Enter your mobile number with country code" value="+20100 (234) 123">
+		<hr>
+
+		<label>Subject</label> <br>
+		<input type="text" name="subject" placeholder="Write a brief subject"> 
+		<hr>
+
+		<label>Password</label> <br>
+		<input type="password" name="password" placeholder="Create a strong password"> <br>
+
+		<input type="text" name="hidden-number" value="12jaq12" hidden>
+
+		<input type="reset" name="Empty Form">
+
+		<input type="submit" name="Send Data">
+
+	</form>
+
+</body>
+</html>
