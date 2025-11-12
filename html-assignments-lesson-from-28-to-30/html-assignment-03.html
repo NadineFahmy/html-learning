@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Data Entry Form</title>
+</head>
+<body>
+
+	<h1>Data Entry Form</h1>
+
+	<form action="" method="GET">
+
+		<input name="token" hidden value="b92f1fc2fce391ad7af633723afd3055">
+
+		<label for="user">Username: </label>
+		<input id="user" name="user" autofocus required minlength="5" maxlength="10"> <br> <br>
+
+		<label for="mail">Email: </label>
+		<input id="mail" name="mail" readonly value="o@o.com"> <br> <br>
+
+
+		<label>Skills</label><br>
+        <input type="checkbox" id="skill1" name="skills" value="Problem Solving" checked>
+        <label for="skill1">Problem Solving</label><br>
+        
+        <input type="checkbox" id="skill2" name="skills" value="Logical Thinking">
+        <label for="skill2">Logical Thinking</label><br>
+        
+        <input type="checkbox" id="skill3" name="skills" value="Advanced Search">
+        <label for="skill3">Advanced Search</label><br>
+        
+        <input type="checkbox" id="skill4" name="skills" value="Analysis">
+        <label for="skill4">Analysis</label><br>
+        
+        <input type="checkbox" id="skill5" name="skills" value="Planning">
+        <label for="skill5">Planning</label><br><br> <br>
+
+
+         <label>Job</label><br>
+        <input type="radio" id="job1" name="job" value="Front-End Developer" checked>
+        <label for="job1">Front-End Developer</label><br>
+        
+        <input type="radio" id="job2" name="job" value="Back-End Developer">
+        <label for="job2">Back-End Developer</label><br>
+        
+        <input type="radio" id="job3" name="job" value="Business Analyst">
+        <label for="job3">Business Analyst</label><br>
+        
+        <input type="radio" id="job4" name="job" value="Project Manager">
+        <label for="job4">Project Manager</label><br>
+        
+        <input type="radio" id="job5" name="job" value="Scrum Master">
+        <label for="job5">Scrum Master</label><br><br>
+
+
+         <label for="language">Programming Language</label>
+        <select id="language" name="language">
+            <optgroup label="PHP">
+                <option value="PHP 8.3">PHP 8.3</option>
+                <option value="PHP 8.2">PHP 8.2</option>
+                <option value="PHP 8.1">PHP 8.1</option>
+                <option value="PHP 8.0">PHP 8.0</option>
+                <option value="PHP 7.4">PHP 7.4</option>
+            </optgroup>
+            
+            <optgroup label="Python">
+                <option value="Python 3.12">Python 3.12</option>
+                <option value="Python 3.11">Python 3.11</option>
+                <option value="Python 3.10">Python 3.10</option>
+                <option value="Python 3.9">Python 3.9</option>
+                <option value="Python 3.8">Python 3.8</option>
+            </optgroup>
+            
+            <optgroup label="JavaScript">
+                <option value="JavaScript ES2024">JavaScript ES2024</option>
+                <option value="JavaScript ES2023">JavaScript ES2023</option>
+                <option value="JavaScript ES2022">JavaScript ES2022</option>
+                <option value="JavaScript ES2021">JavaScript ES2021</option>
+                <option value="JavaScript ES2020">JavaScript ES2020</option>
+            </optgroup>
+            
+            <optgroup label="Java">
+                <option value="Java 21">Java 21</option>
+                <option value="Java 17">Java 17</option>
+                <option value="Java 11">Java 11</option>
+                <option value="Java 8">Java 8</option>
+            </optgroup>
+            
+            <optgroup label="C#">
+                <option value="C# 12">C# 12</option>
+                <option value="C# 11">C# 11</option>
+                <option value="C# 10">C# 10</option>
+                <option value="C# 9">C# 9</option>
+                <option value="C# 8">C# 8</option>
+            </optgroup>
+            
+            <optgroup label="Ruby">
+                <option value="Ruby 3.3">Ruby 3.3</option>
+                <option value="Ruby 3.2">Ruby 3.2</option>
+                <option value="Ruby 3.1">Ruby 3.1</option>
+                <option value="Ruby 3.0">Ruby 3.0</option>
+            </optgroup>
+            
+            <optgroup label="Go">
+                <option value="Go 1.22">Go 1.22</option>
+                <option value="Go 1.21">Go 1.21</option>
+                <option value="Go 1.20">Go 1.20</option>
+                <option value="Go 1.19">Go 1.19</option>
+            </optgroup>
+            
+            <optgroup label="Rust">
+                <option value="Rust 1.76">Rust 1.76</option>
+                <option value="Rust 1.75">Rust 1.75</option>
+                <option value="Rust 1.74">Rust 1.74</option>
+                <option value="Rust 1.73">Rust 1.73</option>
+            </optgroup>
+            
+            <optgroup label="C++">
+                <option value="C++ 23">C++ 23</option>
+                <option value="C++ 20">C++ 20</option>
+                <option value="C++ 17">C++ 17</option>
+                <option value="C++ 14">C++ 14</option>
+            </optgroup>
+            
+            <optgroup label="Swift">
+                <option value="Swift 5.9">Swift 5.9</option>
+                <option value="Swift 5.8">Swift 5.8</option>
+                <option value="Swift 5.7">Swift 5.7</option>
+            </optgroup>
+        </select>
+        <br><br>
+        
+        <label for="brief">Brief</label><br>
+        <textarea id="brief" name="brief" rows="10" cols="50" placeholder="Write here why wou want to learn Programming"></textarea>
+        <br><br>
+
+
+		<input type="reset" name="Empty">
+		<input type="submit" name="Send">
+		
+	</form>
+
+</body>
+</html>
